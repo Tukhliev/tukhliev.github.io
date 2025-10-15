@@ -12,8 +12,8 @@ description: "CTF va vulnerability writeuplari"
 url: "https://tukhliev.github.io"
 baseurl: ""
 author:
-  name: "Your Name"
-  twitter: "your_twitter"
+  name: "7ukh1i3v"
+  telegram: "@tukhliev_01"
   picture: /assets/img/author.jpg  # Profil rasm
 skin: "/assets/css/skins/dark.css"  # Dark mode uchun
 search_full_content: true  # To'liq postlarni qidirish uchun (So Simple uchun)
