@@ -25,3 +25,14 @@
   <!-- Boshqa card'lar shu tarzda qo'shiladi -->
 </body>
 </html>
+<input type="text" id="search" placeholder="Qidirish..." onkeyup="searchWriteups()">
+<script>
+  function searchWriteups() {
+    let input = document.getElementById("search").value.toLowerCase();
+    let cards = document.getElementsByClassName("card");
+    for (let i = 0; i < cards.length; i++) {
+      let text = cards[i].textContent.toLowerCase();
+      cards[i].style.display = text.includes(input) ? "" : "none";
+    }
+  }
+</script>
