@@ -1,0 +1,16 @@
+[
+  {
+    "title": "HackTheBox - Basic Pentesting",
+    "slug": "hackthebox-basic-pentesting",
+    "platform": "HackTheBox",
+    "tags": ["web", "enumeration"],
+    "link": "writeups/hackthebox-basic-pentesting.html"
+  },
+  {
+    "title": "PicoCTF - Buffer Overflow 1",
+    "slug": "picoctf-buffer-overflow",
+    "platform": "PicoCTF",
+    "tags": ["binary", "overflow"],
+    "link": "writeups/picoctf-buffer-overflow.html"
+  }
+]
