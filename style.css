@@ -1,0 +1,33 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0d1117;
+  color: #c9d1d9;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.writeup {
+  background: #161b22;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  text-align: left;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
