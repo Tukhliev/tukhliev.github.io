@@ -1,38 +1,15 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tukhliev's Writeups</title>
-  <style>
-    body { background: #222; color: #fff; font-family: Arial; margin: 20px; }
-    .card { display: flex; background: #333; padding: 10px; margin-bottom: 10px; }
-    .card-content { flex: 1; }
-    .card-image { width: 100px; text-align: right; }
-    .card-image img { width: 80px; }
-    .category { background: #007BFF; padding: 5px; border-radius: 3px; }
-  </style>
+  <title>CTF Writeups | 7ukh1i3v</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <h1>Mening Writeuplarim</h1>
-  <div class="card">
-    <div class="card-content">
-      <h2>Buffer Overflow</h2>
-      <p>Bu writeupda buffer overflow exploit haqida...</p>
-      <span class="category">CTF</span>
-    </div>
-    <div class="card-image"><img src="cube.png" alt="Cube"></div>
-  </div>
-  <!-- Boshqa card'lar shu tarzda qo'shiladi -->
+  <h1>🧠 CTF Writeups by 7ukh1i3v</h1>
+  <input type="text" id="search" placeholder="CTF nomini yozing...">
+  <div id="results"></div>
+
+  <script src="assets/script.js"></script>
 </body>
 </html>
-<input type="text" id="search" placeholder="Qidirish..." onkeyup="searchWriteups()">
-<script>
-  function searchWriteups() {
-    let input = document.getElementById("search").value.toLowerCase();
-    let cards = document.getElementsByClassName("card");
-    for (let i = 0; i < cards.length; i++) {
-      let text = cards[i].textContent.toLowerCase();
-      cards[i].style.display = text.includes(input) ? "" : "none";
-    }
-  }
-</script>
